@@ -1,0 +1,91 @@
+:root{
+    box-sizing: border-box;
+}
+
+.main{
+    display: flex;
+    height: 100vh;
+    
+
+    
+}
+.photo{
+    flex: 2;
+    background-image: url("halie-west-25xggax4bSA-unsplash.jpg");
+    background-size: cover;       /* Ensures image covers container */
+    background-position: center;  /* Centers image */
+    background-repeat: no-repeat;
+}
+#check{
+    display: flex;
+ background-color:  rgba(0, 0, 0, 0.5);
+  height: 100px;
+
+    margin: 150px 0px;
+    justify-content: center;
+    
+}
+#check img{
+    width: auto;
+    height: 100%;
+    justify-content: center;
+}
+#check p{
+    font-size: 50px;
+    justify-self: center;
+    color: white;
+}
+.info{
+    flex: 3;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    
+    
+    
+   
+    
+}
+
+.horz{
+    display: flex;
+    margin-bottom: 10px;
+    
+}
+.horz>div:last-child{
+    margin-left: 50px;
+}
+.para{
+    flex: 3;
+    
+    background-color: #596D48;
+    padding-top: 150px;
+    padding-left: 50px;
+    
+}
+.form{
+    flex: 2;
+    
+    padding: 30px;
+    
+}
+.submit{
+    flex: 3;
+    
+   
+    background-color: #596D48;
+}
+.submit button{
+    margin: 30px 50px 0px;
+    width: 170px;
+    height: 30px;
+    border-radius: 10px;
+    background-color: lightgreen;
+}
+.submit p{
+    margin: 20px 50px;
+}
+
+legend{
+    margin-bottom: 10px;
+}
